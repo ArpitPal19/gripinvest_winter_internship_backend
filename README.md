@@ -32,6 +32,7 @@ Backend: Node.js, Express.js
 📂 Project Structure
 
 gripinvest-backend/
+
 ├── src/
 │ ├── config/ # Database config
 │ ├── controllers/ # Route controllers
@@ -53,8 +54,10 @@ gripinvest-backend/
 
 1. Clone Repo & Install Dependencies
 
-git clone <your-repo-url>
+git clone https://github.com/ArpitPal19/gripinvest_winter_internship_backend
+
 cd gripinvest-backend
+
 npm install
 
 2. Setup Environment
@@ -62,12 +65,19 @@ npm install
 Create a .env file in project root (or copy .env.example):
 
 PORT=5000
+
 DB_HOST=localhost
+
 DB_USER=root
+
 DB_PASS=yourpassword
+
 DB_NAME=gripinvest
+
 JWT_SECRET=supersecretkey
+
 ADMIN_EMAIL=admin@example.com
+
 ADMIN_PASSWORD=adminpass123
 
 3. Setup Database
